@@ -1,0 +1,7 @@
+.customers-table td{
+    font-weight: 400;
+}
+.customers-table tr th{
+    text-transform: uppercase;
+    font-size: large    ;
+}

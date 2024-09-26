@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.form_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form_initials{
+    font-size: 1.5rem;
+    border-bottom: 1px solid black;
+}
+.form_initials input{
+    font-size: 1.2rem;
+}
+.form_initials label,input {
+    padding: 1rem;
+    margin: 1rem;
+}
+.generatedDate, .dueDate, .customerName, .customerAddress, .customerDescription {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.form_LineItems{
+    margin: 10px;
+    font-size: 1.2rem;
+    width: 90%;
+}
+.form_LineItems label {
+    margin: 0.4rem;
+}
+.form_labelHead {
+    text-align: center;
+    padding: 10px;
+    height: fit-content;
+}
+
+.form_labelHead label {
+    padding: 0.7rem;
+    font-size: 2rem;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.listItems_container{
+    display: flex;
+    flex-direction: column;
+}
+.listItemsMap{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.listItemsMap label{
+    font-size: 1.5rem;
+}
+.listItemsMap input{
+    font-size: 1rem;
+}
+.listItemsMap select{
+    font-size: 1.3rem;
+}
+.listItemsMap button{
+    text-align: center;
+    font-size: 1.5rem;
+    width: 3rem;
+}
+
+.button{
+    padding: 1rem;
+}
+.button button{
+    font-size: 1.5rem;
+    font-variant: small-caps;
+    width: 5em;
+
+}
+
+.errorMessage{
+    padding-bottom: 10px;
+    text-align: center;
+    color: red;
+    font-size: medium;
+}
+

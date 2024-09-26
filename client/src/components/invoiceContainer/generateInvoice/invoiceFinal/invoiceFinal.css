@@ -1,0 +1,68 @@
+*{ 
+    font-family: 'Noto Sans Mono', monospace;
+}
+.invoice-print-page{
+    padding: 1rem;
+    margin: 1rem;
+    font-weight: 400;
+}
+.purchaser h3,p {
+    display: inline-block;
+}
+.purchaser p{
+    font-weight: 400;
+}
+.generatedDate h3,p{
+    display: inline-block;
+}
+.dueDate h3,p{
+    display: inline-block;
+}
+.date{
+    float: right;
+}
+.purchaser{
+    display: inline-block;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.purchaseDetails table{
+    width: 90%;
+    text-align: center;
+}
+.purchaseDetails table th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: x-large;
+    font-weight: 600;
+
+}
+.purchaseDetails table td{
+    font-weight: 400;
+    padding: 10px;
+    font-size: large;
+}
+
+.totalQuantity,.totalAmount{
+    display: inline-block;
+}
+.finalNumbers{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2em;
+}
+.dueDate input,.generatedDate input{
+    width: 10em;
+}
+h3{
+    font-weight: 600;
+}
+h1{
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+p{
+    font-size: larger;
+}
